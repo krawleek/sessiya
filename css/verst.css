@@ -8,6 +8,67 @@ body {
   overflow-x: hidden;
 
 }
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(9px);
+    transform: translateX(9px);
+  }
+  30% {
+    -webkit-transform: translateX(-9px);
+    transform: translateX(-9px);
+  }
+  40% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  50% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  65% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(9px);
+    transform: translateX(9px);
+  }
+  30% {
+    -webkit-transform: translateX(-9px);
+    transform: translateX(-9px);
+  }
+  40% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  50% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  65% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+a {
+    text-decoration: none;
+    color: inherit; }
+    a:hover {
+  color: #696969;
+  text-decoration: none;
+}
 h1{
 	font-family: 'Montserrat', sans-serif;
 
@@ -50,7 +111,7 @@ width: 3px;
 }
 .sessiy{
 position: relative;
-left: 20px;
+left: 40px;
 top: 54px;
 
 
@@ -58,19 +119,19 @@ color: #FFE600;
 }
 .rabota{
 	position: relative;
-left: -1950px;;
+left: -1930px;;
 top: 2472px;
 }
 
 .prosm{
 	position: relative;
-left: -1970px;
+left: -1950px;
 top: 4355px;
 
 }
 .ocenka{
 position: relative;
-left: -1975px;
+left: -1955px;
 top: 6012px;
 
 }
@@ -78,17 +139,17 @@ top: 6012px;
 position: relative;
 top: 92.09%;
 bottom: 1.66%;
-left: -1970px;
+left: -1950px;
 top: 8000px;
 }
 .s1{
 position: relative;
-left: -1160px;
+left: -1140px;
 top: 720px;
 }
 .s2{
 position: relative;
-left: 357.15px;
+left: 377.15px;
 top: 30px;}
 .s3{
 	position: relative;
@@ -97,24 +158,24 @@ top: 100px;
 }
 .c1{
 position: relative;
-left: -1470px;
+left: -1450px;
 top: 695px;
 }
 .c2{
 position: relative;
-left: 50px;
+left: 70px;
 top: 1150px;}
 }
 
 .yyyyy{
 position: relative;
-left: 50px;
+left: 70px;
 top: 740px;
 }
 
 .st1{
 position: relative;
-left: 60px;
+left: 80px;
 top: 2851px;
 
 font-family: Arial Black;
@@ -125,7 +186,7 @@ color: #FFE600;
 
 .st2{	
 position: relative;
-left: 0px;
+left: 20px;
 top: 4753px;
 font-family: Arial Black;
 font-size: 600px;
@@ -136,7 +197,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
 
 .st3{
 position: relative;
-left: 100px;
+left: 120px;
 top: 6490.02px;
 font-family: Arial Black;
 font-size: 600px;
@@ -145,12 +206,12 @@ color: #FFE600;
 }
 .ic1{
 position: relative;
-left: -720px;
+left: -740px;
 top: 3661px;
 }
 .i2{
 	position: relative;
-left: -200px;
+left: -180px;
 top: -4550.02px;
 }
 
@@ -158,25 +219,25 @@ top: -4550.02px;
 
 .ic3{
 position: relative;
-left: -720px;
+left: -700px;
 top: 5302.02px;
 }
 
 
 .c3{
 position: relative;
-left: 440px;
+left: 460px;
 top: -8350.02px;
 }
 .c4{
 position: relative;
-left: -350px;
+left: -330px;
 top: -2400px;
 }
 
 .ck2{
 	position: relative;
-left: 750px;
+left: 770px;
 top: -6380px;
 }
 
@@ -185,7 +246,7 @@ top: -6380px;
 	position: relative;
 	width: 303px;
  height: 302.02px;
-left: 420px;
+left: 440px;
 top: -10370px;
 
 }
@@ -193,27 +254,27 @@ top: -10370px;
 position: relative;
 	width: 303px;
  height: 302.02px;
-left: -225px;
+left: -215px;
 top: -9660px;
 }
 .txt2{
 position: relative;
 	width: 303px;
  height: 302.02px;
-left: 370px;
+left: 390px;
 top: -9205px;
 }
 .txt3{
 position: relative;
 	width: 303px;
  height: 302.02px;
-left: 780px;
+left: 770px;
 top: -8340px;
 }
 .txt4{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 600px;
+left: 620px;
 top: -7450px;
 }
 
@@ -221,76 +282,76 @@ top: -7450px;
 .txt5{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 120px;
-top: -7070px;
+left: 340px;
+top: -7180px;
 }
 
 
 .txt6{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 120px;
-top: -6020px;
+left: 250px;
+top: -6100px;
 
 }
 .txt7{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 780px;
-top: -5920px;
+left: 500px;
+top: -5980px;
 
 }
 .txt8{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 780px;
+left: 720px;
 top: -4920px;
 
 }
 .txt9{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 120px;
-top: -4420px;
+left: 340px;
+top: -4600px;
 }
 .txt-logo1{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 670px;
+left: 690px;
 top: -10020px;
 
 }
 .txt-logo2{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 700px;
+left: 720px;
 top: -8370px;
 
 }
 .txt-logo3{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 780px;
+left: 800px;
 top: -6900px;
 
 }
 .txt-logo4{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 680px;
-top: -5120px;
+left: 700px;
+top: -5140px;
 }
 .txt-l1{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 80px;
+left: 110px;
 top: -13940px;
 
 }
 .txt-l2{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 80px;
+left: 100px;
 top: -11705px;
 
 
@@ -298,21 +359,43 @@ top: -11705px;
 .txt-l3{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 70px;
+left: 90px;
 top: -10050px;
 
 }
 .txt-l4{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 90px;
+left: 110px;
 top: -8590px;
 
 }
 .txt-l5{position: relative;
 	width: 303px;
  height: 302.02px;
-left: 90px;
+left: 110px;
 top: -6830px;
 
 }
+.st1:hover{
+	opacity: 0.5;
+	
+	 -webkit-animation: swing 0.6s ease;
+  animation: swing 0.6s ease;
+   -webkit-animation-iteration-count: 1;
+   
+}
+.st2:hover{
+	
+	opacity: 0.5;
+	
+
+}
+.st3:hover{
+	opacity: 0.5;
+	
+	 -webkit-animation: swing 0.6s ease;
+  animation: swing 0.6s ease;
+   -webkit-animation-iteration-count: 1;
+   animation-iteration-count: 1;
+     }
